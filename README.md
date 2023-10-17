@@ -2,7 +2,7 @@
 The aim of this project was to explore the effectiveness of a range of different machine learning techniques for predicting the sentiment of text movie reviews.
 
 ## Data Supplied
-We were provided with the dataset procured and parsed in the paper:
+We were provided with the dataset from the paper:
 
 Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank
 Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts
