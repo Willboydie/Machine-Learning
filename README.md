@@ -31,3 +31,7 @@ For each encoding, we fitted a convolutional neural network (CNN) and a dense ne
 
 ### Findings
 We found the TF-IDF encoding, fitted to a CNN the most accurate predictor on the evaluation set.
+
+## Files
+#### AML_Project__Sentiment_Analysis (1).pdf
+This was our project submission, and contains detailed explanation and discussion or results and methods.
