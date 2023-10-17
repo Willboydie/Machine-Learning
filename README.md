@@ -25,13 +25,16 @@ We split each dictionary.txt entry into individual words; removed "stop words" (
 
 ### Phrase Embedding
 We tried three different embedding strategies: a count array (or one-hot encoding); a semantic embedding using the method 'word2vec' from the package 'gensim'; and a tf-idf encoding.
+#### UMAP
+We use a UMAP dimension reduction to visualise the data in each encoding. We hoped to see some sort of clustering or distinct variance, but the plots reveal all data to be very uniform, a sign that the encodings are not storing significant information. The word2vec visualisation shows the least variance, a bad omen which if also reflected in its poor prediction performance later. 
 
 ### Machine Learning Methods
 For each encoding, we fitted a convolutional neural network (CNN) and a dense neural network.
 
 ### Findings
-We found the TF-IDF encoding, fitted to a CNN the most accurate predictor on the evaluation set.
+We found the TF-IDF encoding, fitted to a CNN the most accurate predictor on the evaluation set. For more information on this conclusion, our results and methods, see the submission file:  AML_Project__Sentiment_Analysis (1).pdf
 
 ## Files
 #### AML_Project__Sentiment_Analysis (1).pdf
 This was our project submission, and contains detailed explanation and discussion or results and methods.
+#### 
