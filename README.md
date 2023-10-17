@@ -36,5 +36,16 @@ We found the TF-IDF encoding, fitted to a CNN the most accurate predictor on the
 
 ## Files
 #### AML_Project__Sentiment_Analysis (1).pdf
-This was our project submission, and contains detailed explanation and discussion or results and methods.
-#### 
+This was our project submission, and contains detailed explanation and discussion or results and methods. Credit for this file also goes to Gaggan Jabbal (https://github.com/gagganj) and Kilean Neal.
+#### Corpus Cleaning.ipynb
+In this file we load and clean the data as described above.
+#### Tomato Count Array.ipynb
+We create a count array and run some preliminary machine learning methods.
+#### Tomato TF-IDF.ipynb
+We create a TF-IDF encoding and run some preliminary machine learning methods. Detailed explanation of this method is found in the submission pdf.
+#### Tomatoes Embed.ipynb
+We plan and create a word2vec semantic encoding. Detailed explanation of this methos found in submission pdf.
+#### Tomatoes UMAP.ipynb
+We generate the UMAP reduced plots.
+#### Tomatoes Exploration.ipynb
+We run some analysis on the corpus, visualising the distributions and frequencies of words in the corpus.
