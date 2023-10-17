@@ -49,3 +49,5 @@ We plan and create a word2vec semantic encoding. Detailed explanation of this me
 We generate the UMAP reduced plots.
 #### Tomatoes Exploration.ipynb
 We run some analysis on the corpus, visualising the distributions and frequencies of words in the corpus.
+#### NNs_and_Evaluation.ipynb
+Implementation and analysis of Neural Networks and their performance. Full credit for this code file goes to Gaggan Jabbal (https://github.com/gagganj).
