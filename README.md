@@ -27,7 +27,7 @@ We split each dictionary.txt entry into individual words; removed "stop words" (
 We tried three different embedding strategies: a count array (or one-hot encoding); a semantic embedding using the method 'word2vec' from the package 'gensim'; and a tf-idf encoding.
 
 ### Machine Learning Methods
-For each encoding, we fitted a convolutional neural network and a dense neural network.
+For each encoding, we fitted a convolutional neural network (CNN) and a dense neural network.
 
 ### Findings
-
+We found the TF-IDF encoding, fitted to a CNN the most accurate predictor on the evaluation set.
